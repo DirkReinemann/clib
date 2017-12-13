@@ -101,7 +101,7 @@ void test_TraverseDirectory_should_ReturnRightFileCount()
                        NULL,
                        onfile_TraverseDirectory_should_ReturnRightDirectoryAndFileCount,
                        &filecount);
-    TEST_ASSERT_EQUAL_INT(12, filecount);
+    TEST_ASSERT_EQUAL_INT(11, filecount);
 }
 
 int main()
